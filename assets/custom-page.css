@@ -1,0 +1,71 @@
+/*================ Main Header Styling ================*/
+.header-container:not(.sticky-header) .header-wrapper { background-color: #8e8e8e !important; }
+#gtranslate_wrapper { display: none !important; }
+.header-full-width .header-container>.container { display: flex !important; justify-content: space-between !important; }
+.top-navigation .static-dropdown .menu-wrapper ul li:hover > a { background-color: #f4f4f4 !important; color: #777 !important; }
+
+/*================ Category Button ================*/
+.collection-list h3 { display: none; }
+.collection-list .row .col-md-2 { margin-bottom: 0px !important; }
+@media only screen and (max-width: 1024px){ 
+.sidebar-section-main { display: none; }
+}
+@media (min-width: 320px) and (max-width: 767px){
+.collection-list .row { display: flex !important; }
+.collection-list .row .col-md-2 { width: 50%; }
+.collection-list img { margin-left: 0!important; }
+}
+
+/*================ Category Product List ================*/
+.collection-container .category-products { margin: 0 !important; }
+.products-collection .products-grid .product { padding: 0 !important; }
+
+/*================ Main Footer Styling ================*/
+.__affirm-logo.__ligature__affirm_full_logo__ { font-size: 20px !important; }
+.footer-bottom .custom-block-1 { margin-left: 0 !important; }
+.sticky-active { position: static !important; }
+.shopify-payment-button__button { background-color: #fff !important; }
+.owl-prev, .owl-next { margin-top: 15px !important; }
+@media only screen and (max-width: 991px) {
+.block-main-canvas .canvas-icon { z-index: -9999999 !important; transition: none !important; visibility: hidden !important; }
+}
+
+/*================ Sale Label Styling ================*/
+.product-inner .product-image .labels { overflow: hidden; width: 112px; height: 30px; bottom: 0; right: 0; }
+.product-inner .product-image .labels .onsale { position: absolute; top: 0; left: 0; transform: none; width: auto; background: #ff0000; }
+
+/*================ Page Styling ================*/
+.page .main-container .main .container .page-container h1 { display: none; }
+.main-container .main-breadcrumbs { border-bottom: 1px solid #d1d1d1; }
+.main-container .product_layout .main-breadcrumbs { border-bottom: none; }
+.main-container .main .product_layout .product-main { margin-top: 0px; }
+.main-container .main .product-main { margin-top: 25px; }
+
+/*================ Installation & Manual Page ================*/
+.page--grid { display: grid; grid-template-columns: repeat(12,minmax(0,1fr)); grid-row-gap: 24px; grid-column-gap: 24px; margin-left: auto; margin-right: auto; }
+.page--grid > .dropshadow { -webkit-box-shadow: 1px 1px 21px 0px rgba(100,100,100,0.35); }
+.page--grid > .dropshadow:hover{ -webkit-box-shadow: 1px 1px 21px 0px rgba(100,100,100,0.75); }
+.page__btn, .page__btn:hover { background: #f44336; color: #fff; padding: 10px 20px; border-radius: 20px; margin-left: 5px; }
+@media only screen and (max-width: 734px) {
+.page--grid { grid-row-gap: 12px; grid-column-gap: 12px; }
+.installation-section { padding: 0; }
+.page-container h1 { font-size: 30px !important; }
+.installation-section .grid-module { margin-bottom: 0; }
+}
+
+/*================ Deals Page ================*/
+#products-grid .product-col.product-default h3 { padding: 5px 10px; }
+#collection-main .category-products .products-grid .product-col .product-inner .product-content .yotpo { justify-content: normal !important; }
+@media (min-width: 576px){ 
+#collection-main .list .product .product-inner { align-items: normal;}
+}
+
+/*================ Product Page - Feature Styling ================*/
+.feature-section, .manual-section{margin-bottom: 20px}
+
+/*================ Product Page - Massage Chair Cleaner Option Styling ================*/
+#bcpo .selector-wrapper > :last-child{margin-bottom: 15px}
+#bcpo .bcpo-title{font-weight: 600}
+
+/*================ Product Page - Reviews Styling ================*/
+.yotpo .yotpo-regular-box{border-top: none !important}

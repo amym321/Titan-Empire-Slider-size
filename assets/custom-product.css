@@ -1,0 +1,53 @@
+/*================ OsakiUSA Product Page Styling ================*/
+.product--container .al-top-boder .al_desc_width {max-width: 1280px}
+.rte img:not([style]), .rte img {margin-top: 0; margin-bottom: 0}
+
+/*================ Reviews Styling ================*/
+.yotpo .yotpo-regular-box {border-top: none !important}
+
+/*================ Massage Chair Cleaner Option Styling ================*/
+#bcpo .selector-wrapper > :last-child {margin-bottom: 15px}
+#bcpo .bcpo-title {font-weight: 600}
+
+/*================ Intensity Styling ================*/
+.intensity-content{position:absolute;top:32px;right:42px;z-index:1}
+.intensity-wrapper{display:flex;flex-flow:column;align-items:center;width:170px}
+.intensity-headline{font-size:17px!important;font-weight:600;text-transform:uppercase;letter-spacing:-0.03em;margin-bottom:3px!important}
+.theme-dark-intensity-headline{color:#f5f5f7}
+.intensity-bar{background:#1a1a1a;border:5px solid #1a1a1a;height:50px;border-radius:25px;position:relative;margin-bottom:12px;width:100%;}
+.intensity-range{position:absolute;top:0;width:70%;height:100%;border-radius:22px;display:inline-flex;align-items:center;justify-content:center}
+.typography-intensity{font-size:24px!important;font-weight:600;color:#000;text-align:center}
+.range-3{background:linear-gradient(90deg,rgba(255,154,0,1) 0%,rgba(255,0,0,1) 70%);right:0}
+.range-2{background:linear-gradient(97deg, rgba(74,255,0,1) 0%,rgba(255,184,0,1) 80%);left:50%;transform:translateX(-50%)}
+.range-1{background:linear-gradient(97deg, rgba(0,185,255,1) 0%,rgba(74,255,0,1) 100%);left:0}
+@media only screen and (max-width:1024px){.intensity-wrapper{width:130px}.intensity-content{top:15px;right:30px}.intensity-headline{font-size:12px!important}.intensity-bar{height:40px;border:4px solid #1a1a1a}.typography-intensity{font-size:18px!important}}
+@media only screen and (max-width:734px){.intensity-wrapper{width:74px}.intensity-content{top:12px;right:15px}.intensity-headline{font-size:8px!important;margin-bottom:1px!important}.intensity-bar{height:32px;border:3px solid #1a1a1a}.typography-intensity{font-size:14px!important}}
+
+/*================ Specification Styling ================*/
+.section-specs{margin-left:auto;margin-right:auto;max-width:980px}
+.specs-headline{margin-bottom:47px}
+.typography-headline-specs{font-size:62px !important;font-weight:600;letter-spacing:-0.015em}
+.section-specs .specs-section{border-top:1px solid #d2d2d7}
+.section-specs .specs-section:first-child{border-top:none}
+.table-tap:last-child{border-bottom:1px solid #d2d2d7}
+.specs-section{padding-top:2.5em;padding-bottom:2.2em}
+.specs-row:before, .specs-row:after{content:" ";display:block}
+.specs-rowheader:after, .specs-row:after{clear:both}
+.specs-column, .specs-rowheader{float:left}
+.specs-rowheader{width:22%}
+.specs-rowheader{font-size:24px;line-height:1.4;font-weight:600;letter-spacing:.009em;margin-top:-0.25em}
+.specs-column{width:30%;margin-left:3%}
+.specs-column{font-size:21px !important;line-height:1.4;font-weight:400;letter-spacing:.009em;margin-top:-0.25em}
+@media only screen and (max-width:1024px){.section-specs{max-width:700px}.typography-headline-specs-reduced{font-size:48px!important}.specs-rowheader{font-size:21px;line-height:1.2}.specs-column{font-size:17px!important}}
+@media only screen and (max-width:734px){.section-specs{margin-left:auto;margin-right:auto;max-width:375px;padding-left:10px;padding-right:10px}.specs-headline{margin-bottom:30px}.typography-headline-specs-reduced{font-size:40px!important}.specs-section{padding-top:1em;padding-bottom:1.5em}.specs-rowheader{width:100%;font-size:19px;padding:0.95em 0}.specs-column{width:45%;margin-left:0;margin-right:11px}}
+
+/*================ Product Page - Basic Styling ================*/
+.main{max-width:1280px;margin-left:auto;margin-right:auto}
+.theme-dark{background-color: #000;color: #a1a1a6}
+.list-nobullet {list-style-type: none!important;padding-left: 0!important; margin-left: 0}
+.fluid-width-video-wrapper{padding-top:56.25%!important}
+.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+.section-content{margin-left:auto;margin-right:auto;max-width:980px}
+.section-wrapper{display:flex;justify-content:space-between}
+@media only screen and (max-width:1024px){.section-content{max-width:692px}}
+@media only screen and (max-width:734px){.section-content{width:100%;max-width:400px}}
